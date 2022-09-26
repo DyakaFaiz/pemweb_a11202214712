@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Belajar Video html</title>
+</head>
+<body>
+    <center>
+        <table>
+        <tr>
+        <td colspan="3" rowspan="4"><video src="mov_bbb.mp4" id="videobang"></video></td>
+        </tr>
+        <tr>
+            <td><button onclick="playVid()" style="background-color:#FFD700 ;">Start Video</button></td>           
+        </tr>
+        <tr>
+            <td><button onclick="pauseVid()" style="background-color:#FFD700 ;">Pause Video</button></td>
+        </tr> 
+        <tr>
+            <td><button onclick="alertVid()" style="background-color:#FFD700 ">Durasi Video</button></td>
+        </tr>
+        <tr>
+            <td><iframe src="https://www.youtube.com/embed/lRVTVB94zTg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </td>
+        </tr>       
+        </table>
+        <a href="aud.html" type="button">Menuju Ke Halaman Audio</a>
+    </center>
+</body>
+<script>
+    var vid = document.getElementById("videobang");
+
+    function playVid() {
+        vid.play();
+        vid.loop = true;
+    }
+
+    function pauseVid() {
+        vid.pause();
+    }
+    function alertVid(){
+        alert(vid.duration);
+    }
+</script>
+</html>
