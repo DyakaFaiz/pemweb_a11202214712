@@ -12,8 +12,12 @@
 <br><br><br><br>
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+    <link rel="stylesheet" href="style.css">
+    </head>
 <body>
-<table border="1" cellspacing="0">
+    <center>
+<table border="1" cellspacing="0" cellpadding="5">
         <tr>
             <th  colspan="2">FORM BIODATA</th>
         </tr>
@@ -63,6 +67,7 @@
             <td> Berkas CV :</td>
             <td><?php echo  $ifile; ?></td>
         </tr>
-    </table>  
+    </table> 
+    </center> 
 </body>
 </html>
