@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    padding: 35px;
+    text-align: center;
+    border: 1px solid;
+}
+
+nav {
+    float: left;
+    width: 20%;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 14%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0px;
+    margin-top: 0px;
+}
+
+nav ul li a:hover {
+    background-color: brown;
+    color: white;
+}
+
+article {
+    float: left;
+    width: 80%;
+    padding: 0 20px;
+    border: 1px solid;
+    padding: 0 20px;
+}
+
+footer {
+    text-align: center;
+}
+
+#tes {
+    font-family: monospace;
+    font-size: 150%;
+    color: brown;
+    font-style: italic;
+}
+
+#tes2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 150%;
+    color: brown;
+    font-style: italic;
+}
