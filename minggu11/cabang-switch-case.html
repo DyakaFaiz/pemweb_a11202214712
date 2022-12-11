@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var bilangan = prompt("Masukkan Angka Gacha : ");
+        var hadiah;
+        switch (bilangan) {
+            case "1":
+                {
+                    hadiah = "Selamat Anda Mendapatkan Uang Sejumlah 2 juta";
+                    break;
+                }
+            case "2":
+                {
+                    hadiah = "Selamat anda mendapatkan uang sejumlah 1 juta";
+                    break;
+                }
+            default:
+                {
+                    document.write("Coba Lagi ");
+                }
+        }
+
+        if (bilangan == "1" || bilangan == "2") {
+            document.write("Buat Kamu " + hadiah);
+        } else {
+            document.write("Maaf Hal yang anda masukkan tidak terbaca");
+        }
+    </script>
+</body>
+
+</html>

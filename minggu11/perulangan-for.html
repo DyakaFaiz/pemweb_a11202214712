@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var ulangi = confirm("Selamat Datang")
+        var counter = 0;
+
+        while (ulangi) {
+            ulangi = confirm(`Sudah Mengulangi Sebanyak ${counter} apakah Anda Ingin Mengulangi lagi ?`);
+            counter++;
+        }
+
+        document.write("Anda telah Bermain Looping Sebanyak " + counter);
+    </script>
+</body>
+
+</html>
